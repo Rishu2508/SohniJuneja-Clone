@@ -1,0 +1,379 @@
+.Coaching-Container {
+    width: 90%;
+    margin: auto;
+}
+
+.covid {
+    display: none;
+}
+
+.first-p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    color: #464343;
+}
+
+.second-p {
+    margin-bottom: 1.5rem;
+}
+
+.second-p h2 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 27px;
+
+    /* identical to box height */
+
+
+    color: #464343;
+}
+
+.second-p ul li {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #464343;
+
+
+}
+
+.Third-p h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #464343;
+
+}
+
+.Third-p {
+    margin-bottom: 1.5rem;
+}
+
+.Third-p p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* identical to box height */
+
+
+    color: #464343;
+}
+
+.four-p {
+    margin-bottom: 1rem;
+}
+
+.four-p h3 {
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #464343;
+
+
+}
+
+.four-p ul li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #464343;
+
+}
+
+.four-p span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 1.2rem;
+    display: block;
+
+
+    color: #464343;
+}
+
+.btn-p {
+
+    background: #FFFFFF;
+    border: 1px solid #747171;
+
+    width: 542px;
+    height: 58px;
+    margin: auto;
+    margin-bottom: 1rem;
+
+
+}
+
+.coach {
+    width: 96vw !important;
+}
+
+.btn-p button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding-left: 146px;
+    padding-top: 15px;
+
+}
+
+.fifth-p h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #464343;
+}
+
+.fifth-p p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #464343;
+}
+
+.wrap-d .typo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+
+}
+
+.coach-check {
+    text-decoration: none;
+}
+
+.coach-check:hover {
+    color: black;
+}
+
+@media(max-width: 600px) {
+
+    .wrap-d {
+        width: 100%;
+    }
+
+    .Coaching-Container {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+
+    .coach {
+        width: 100vw !important;
+    }
+
+    .wrap-d .typo {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+
+        color: #464343;
+    }
+
+    .first-p {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .second-p ul li {
+        font-size: 12px;
+    }
+
+    .Third-p h3 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+
+        /* identical to box height */
+
+        color: #464343;
+    }
+
+    .Third-p p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        /* identical to box height */
+
+        color: #464343;
+
+
+    }
+
+    .second-p h2 {
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #464343;
+
+    }
+
+    .four-p h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+
+        /* identical to box height */
+
+        color: #464343;
+    }
+
+    .four-p ul li {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #464343;
+    }
+
+    .four-p span {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+
+        color: #464343;
+    }
+
+    .btn-p {
+        background: #FFFFFF;
+        border: 1px solid #747171;
+        box-sizing: border-box;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 37px;
+    }
+
+    .btn-p button {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        padding-left: 20px;
+        padding-top: 6px;
+        white-space: nowrap;
+
+
+        /* identical to box height */
+
+        color: #464343;
+    }
+
+    .covid {
+        display: block;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #464343;
+        margin-top: 1rem;
+        padding: 10px;
+
+        height: auto;
+    }
+
+    .fifth-p {
+        margin-top: 4rem;
+    }
+
+    .fifth-p h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+
+        /* identical to box height */
+
+        color: #464343;
+
+
+    }
+
+    .fifth-p p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #464343;
+    }
+
+
+}

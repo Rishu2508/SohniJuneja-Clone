@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.image-nav {
+    padding-right: 30px;
+}
+
+.mb-whatsapp {
+    display: none;
+}
+
+.Menu li {
+    display: inline;
+
+    border-left-style: solid;
+    border-color: #909090;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.Menu {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.linkText {
+    color: rgba(70, 67, 67, 1);
+    text-decoration: none;
+    margin-left: 22.7px;
+}
+
+.linkText:hover {
+    font-weight: 500;
+    color: rgba(70, 67, 67, 1);
+    text-decoration: none;
+}
+
+.Menu .active {
+    font-weight: 700;
+}
+
+.phone-m {
+    height: 30px;
+    width: 30px;
+}
+
+.Menu li:last-child {
+    border-right-style: solid;
+    border-color: #909090;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+
+    .borderLine {
+        border: 1px solid #EDE4E4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .phone-m {
+        width: 21px;
+        height: 25px !important;
+        transform: rotate(2deg);
+        margin-right: 15px;
+    }
+
+    .Menu .active {
+        font-weight: 700;
+    }
+
+    .mb-whatsapp {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+    }
+
+    .conn {
+        margin-top: 7px;
+        top: 0.938rem;
+        right: 1.813rem;
+    }
+
+
+
+}

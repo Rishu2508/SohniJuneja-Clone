@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navigation {
+    height: 20%;
+}
+
+.header {
+    padding: 25px 22px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.header .image {
+    order: 2;
+}
+
+.header .contact {
+    order: 1;
+}
+
+.header .social-contacts {
+    order: 3;
+}
+
+.phone-m {
+    height: 30px;
+    width: 30px;
+}
+
+.mb-whatsapp {
+    display: none;
+}
+
+.linkText .image-nav {
+    height: 66px;
+    width: 250px;
+}
+
+.contact span {
+    font-size: larger;
+}
+
+.Menu ul li:not(:first-child) {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 13.75px;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.Drawer {
+    display: none;
+}
+
+.main-page {
+    width: 94%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    /* padding-bottom: 50px; */
+}
+
+.main-text h1 {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    padding-bottom: 0px !important;
+}
+
+.main-text p {
+    max-width: 33.75em;
+    font-size: 1.2rem;
+    line-height: 24.8px;
+    margin-bottom: 1.75em;
+}
+
+.main-text h1 {
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    padding-bottom: 0px !important;
+}
+
+.main-text {
+    padding-left: 2.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 7rem;
+}
+
+.main-text article {
+    max-width: fit-content;
+    background: #747171;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+p.read-more {
+    margin: 0;
+}
+
+.main-text article {
+    max-width: fit-content;
+    background: #747171;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+p.read-more {
+    margin: 0;
+}
+
+.css-l5n0fu {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    position: relative;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-anchor: none;
+    border-radius: 0px;
+    width: 100vw;
+    margin-top: 1px;
+}
+
+.book {
+    width: 96vw !important;
+}
+
+.css-1iji0d4 {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    min-height: 48px;
+    padding: 0px 16px;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.css-17o5nyn {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 12px 0px;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.css-l5n0fu::before {
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    right: 0px;
+    height: 1px;
+    content: "";
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.12);
+    transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.css-vubbuv {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+}
+
+.css-17o5nyn {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 12px 0px;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.css-17o5nyn {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 12px 0px;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.css-zq6grw {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.334;
+    letter-spacing: 0em;
+}
+
+.slick-track {
+    transition: 0.25s ease;
+}
+
+.css-1fx8m19 {
+    display: flex;
+    color: rgba(0, 0, 0, 0.54);
+    transform: rotate(0deg);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.accordian-header {
+
+    display: flex;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.accordian-heading {
+    margin: 0;
+}
+
+.accordion {
+    box-shadow: 0 0 4px -1px #0008;
+    max-width: 94%;
+}
+
+.accordian-header img {
+    width: 40px;
+    height: 40px;
+    transition: 0.25s ease;
+}
+
+.accordian-header img.open {
+    transform: rotate(180deg);
+}
+
+.accordian-content {
+    transition: 0.25s ease-in-out;
+}
+
+.accordian-content:first-child {
+    height: 325px;
+
+}
+
+.accordian-content.collapsed {
+    height: 0px;
+    overflow: hidden;
+}
+
+.accordian-content:nth-child(2):not(.collapsed) {
+    padding: 1rem 1rem;
+}
+
+.categories {
+    padding: 1.5rem 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span.category {
+    font-size: 1.3rem;
+    width: 7rem;
+    text-align: center;
+}
+
+span.book-now,
+span.call-now {
+    padding: 0.8rem 1.5rem;
+    background: #747171;
+    color: #fff;
+    text-decoration: underline;
+    border-radius: 2rem;
+}
+
+.Coaching-Container {
+    margin: auto;
+    width: 90%;
+}
+
+.instagram-follow {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.instagram-follow div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+img.foll {
+    width: 80%;
+}
+
+.dEzngB {
+    height: 80%;
+    width: 90vw;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.iAqHib {
+    flex: 1 1 0%;
+    max-width: 100%;
+}
+
+.iAqHib img {
+    width: 300px;
+    height: 422.81px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 4px 4px);
+    margin: auto !important;
+}
+
+.jbQueF {
+    flex: 1 1 0%;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jibUlQ {
+    width: 589px;
+    margin-top: 50px;
+    line-height: 21px;
+    text-align: center;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bkzoHn {
+    width: 100vw;
+    margin: auto;
+}
+
+.wktKR {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.itUVVB {
+    display: flex;
+    justify-content: space-around;
+    width: 96vw;
+    margin: auto;
+}
+
+.gziJZX {
+    flex: 1 1 0%;
+}
+
+.gRPkDY {
+    flex: 1 1 0%;
+}
+
+.gziJZX img {
+    width: 100%;
+    height: auto;
+}
+
+.gziJZX p {
+    margin-left: 30px;
+}
+
+.bDHuup img {
+    width: 100%;
+    height: auto;
+}
+
+.gRPkDY img {
+    width: 100%;
+    height: auto;
+}
+
+.gRPkDY img {
+    width: 100%;
+    height: auto;
+}
+
+.fugLi {
+    margin: 0px auto auto;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgb(116, 113, 113);
+    color: rgb(255, 255, 255);
+    width: 9em;
+    padding: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.feed-posts {
+    max-width: 90%;
+    margin: auto;
+}
+
+.accolades {
+    padding: 1rem 0;
+}
+
+.pics-accolades {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pics-accolades img {
+    width: 15%;
+}
+
+.questions {
+    max-width: 55%;
+    user-select: none;
+    margin: 0 auto 2rem auto;
+}
+
+.questions .accordian {
+    cursor: pointer;
+    border-bottom: 1px solid #121212;
+}
+
+.faq-header {
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.heading {
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+p.content {
+    padding: 0 3rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    margin: 0;
+    transition: 0.2s ease;
+    overflow: hidden;
+    height: 0px;
+}
+
+.questions .accordian.open p.content {
+    height: 48px;
+}
+
+.questions .accordian:nth-child(2).open p.content {
+    height: 102px;
+}
+
+.questions .accordian:nth-child(3).open p.content,
+.questions .accordian:nth-child(4).open p.content,
+.questions .accordian:nth-child(5).open p.content {
+    height: 75px;
+}
+
+.map-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.links {
+    padding: 1rem 1rem;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.links a {
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+}
+
+footer {
+    background: rgb(241, 241, 241);
+    /* padding: 0.2rem 0; */
+}
+
+h2.footer-heading {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.links {
+    padding: 1rem 1rem;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.links a {
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+}
+
+footer {
+    background: rgb(241, 241, 241);
+    /* padding: 0.2rem 0; */
+}
+
+h2.footer-heading {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.Container2 {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.content span {
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.copyright {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media only screen(max-width: 768px) {
+    .main-page{
+        margin: 0;
+    }
+    .main-text{
+        display: none;
+    }
+}

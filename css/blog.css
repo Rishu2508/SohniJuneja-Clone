@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.p1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.p2,
+.p3 {
+    font-size: 18px;
+}
+
+.p2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.p3 {
+    font-family: 'Sinhala MN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sllAr2 a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+@media(max-width:600px) {
+    /* .sllAr .slick-arrow.slick-next::before {
+        right: 2px;
+        content: ">";
+        top: 30%;
+        color: black;
+        font-size: 32px;
+        font-weight: bolder;
+        font-family: monospace;
+        position: absolute;
+    }
+    .slick-arrow {
+        display: none;
+    } */
+}
